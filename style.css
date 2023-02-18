@@ -1,0 +1,355 @@
+* {
+    background: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1458px;
+    height: 80px;
+    left: 20px;
+    top: 10px;
+    background: #111111;
+    border: 2px solid #808080;
+    border-radius: 20px;
+
+
+}
+
+.navbar h2 {
+    position: absolute;
+    width: 354px;
+    height: 53px;
+    left: 92px;
+    top: 11px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #808080;
+    background: #111111;
+}
+
+.icon {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 311px;
+    left: 24px;
+    top: 102px;
+    background: #111111;
+    border: 2px solid #808080;
+    border-radius: 20px;
+}
+
+.icon img {
+    position: absolute;
+    width: 198px;
+    height: 199px;
+    left: 154px;
+    top: 19px;
+    background: url(100k-ai-faces-6);
+    border-radius: 100000px;
+}
+
+.icon p {
+    position: absolute;
+    width: 147px;
+    height: 29px;
+    left: 177px;
+    top: 241px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #808080;
+    background: #111111;
+}
+
+.info {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 230px;
+    left: 27px;
+    top: 425px;
+    background: #111111;
+    border: 2px solid #808080;
+    border-radius: 20px;
+}
+
+.info ul {
+    position: absolute;
+    width: 386px;
+    left: 56px;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #808080;
+
+}
+
+.info ul li {
+    background: #111111;
+
+}
+
+.info-link {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 306px;
+    left: 18px;
+    top: 668px;
+    background: #111111;
+    border: 2px solid #808080;
+    border-radius: 20px;
+}
+
+.info-link h1 {
+
+    position: absolute;
+    width: 68px;
+    height: 29px;
+    left: 45px;
+    top: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 29px;
+    background: #111111;
+    text-transform: uppercase;
+    color: #808080;
+
+}
+
+.p1 {
+    position: absolute;
+    width: 72px;
+    height: 28px;
+    left: 121px;
+    top: 82px;
+    background: #111111;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.m1 img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #111111;
+    left: 11.33%;
+    right: 8.33%;
+    top: 27%;
+    bottom: 45.83%;
+    font-size: 20px;
+}
+
+.p2 {
+    position: absolute;
+    width: 125px;
+    height: 29px;
+    left: 121px;
+    top: 130px;
+    background: #111111;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.m2 img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #111111;
+    left: 11.33%;
+    right: 8.33%;
+    top: 43%;
+    bottom: 45.83%;
+}
+
+.p3 {
+    position: absolute;
+    width: 136px;
+    height: 29px;
+    left: 121px;
+    top: 187px;
+    background: #111111;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #808080;
+
+}
+
+.m3 img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #111111;
+    left: 11.33%;
+    right: 8.33%;
+    top: 60%;
+    bottom: 45.83%;
+    cursor: pointer;
+}
+
+.p4 {
+    position: absolute;
+    width: 90px;
+    height: 29px;
+    left: 121px;
+    top: 245px;
+    background: #111111;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.m4 img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #111111;
+    left: 11.33%;
+    right: 8.33%;
+    top: 80%;
+    bottom: 45.83%;
+}
+
+.task {
+    box-sizing: border-box;
+    position: absolute;
+    width: 932px;
+    height: 873px;
+    left: 540px;
+    top: 102px;
+    background: #111111;
+    border: 2px solid #808080;
+    border-radius: 20px;
+}
+
+.task h2 {
+    position: absolute;
+    width: 564px;
+    height: 58px;
+    left: 31px;
+    top: 13px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 27px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #808080;
+    background: #111111;
+}
+
+.task-info {
+    box-sizing: border-box;
+    position: absolute;
+    width: 876px;
+    height: 788px;
+    background: #111111;
+    left: 29px;
+    top: 67px;
+    border: 1px solid #808080;
+    border-radius: 20px;
+}
+
+.table {
+    position: absolute;
+    width: 58vw;
+    height: 52vw;
+    left: 24px;
+    top: 64px;
+    color: #808080;
+    background: #808080;
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+
+th{
+    background: #111111;
+}
+tr {
+    background: #111111;
+    height: 51px;
+}
+
+
+td {
+    background: #111111;
+}
+
+
+/* Default style for desktop screens */
+/* ... */
+
+/* Media queries for mobile screens */
+@media (max-width: 640px) {
+    /* Reduce font size */
+    body {
+      font-size: 14px;
+    }
+    
+    /* Reduce padding */
+    .main {
+      padding: 16px;
+      flex-direction: column;
+      width: 100%;
+
+    }
+    .info {
+      flex-direction: column;
+      width: 100%;
+
+    }
+    
+    .info-link {
+      flex-direction: column;
+      width: 100%;
+
+    }
+    
+    .task {
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    
+    
+    /* Override any other styles as needed */
+    /* ... */
+  }
+  
