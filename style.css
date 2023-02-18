@@ -160,6 +160,7 @@
     top: 27%;
     bottom: 45.83%;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .p2 {
@@ -186,6 +187,7 @@
     right: 8.33%;
     top: 43%;
     bottom: 45.83%;
+    cursor: pointer;
 }
 
 .p3 {
@@ -240,6 +242,7 @@
     right: 8.33%;
     top: 80%;
     bottom: 45.83%;
+    cursor: pointer;
 }
 
 .task {
