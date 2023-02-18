@@ -299,9 +299,10 @@
 }
 
 
-th{
+th {
     background: #111111;
 }
+
 tr {
     background: #111111;
     height: 51px;
@@ -318,38 +319,107 @@ td {
 
 /* Media queries for mobile screens */
 @media (max-width: 640px) {
+
     /* Reduce font size */
-    body {
-      font-size: 14px;
+    .navbar {
+        box-sizing: border-box;
+        position: absolute;
+        width: 600px;
+        height: 78px;
+        left: 22px;
+        top: 19px;
+
+        background: #111111;
+        border: 2px solid #808080;
+        border-radius: 10px;
     }
-    
+
     /* Reduce padding */
-    .main {
-      padding: 16px;
-      flex-direction: column;
-      width: 100%;
+    .icon {
+        box-sizing: border-box;
+        position: absolute;
+        width: 600px;
+        height: 282px;
+        left: 19px;
+        top: 123px;
+        background: #111111;
+        border: 2px solid #808080;
+        border-radius: 10px;
 
     }
+
     .info {
-      flex-direction: column;
-      width: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        width: 600px;
+        height: 247px;
+        left: 22px;
+        top: 428px;
+        background: #111111;
+        border: 2px solid #808080;
+        border-radius: 10px;
 
     }
-    
+
     .info-link {
-      flex-direction: column;
-      width: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        width: 595px;
+        height: 306px;
+        left: 21px;
+        top: 700px;
+        background: #111111;
+        border: 2px solid #808080;
+        border-radius: 10px;
 
     }
-    
+
+    .task h2 {
+        position: absolute;
+        width: 589px;
+        height: 54px;
+        left: 2px;
+        top: -76px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 49px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+    }
+
     .task {
-      flex-direction: column;
-      width: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        width: 595px;
+        height: 805px;
+        left: 21px;
+        top: 1097px;
+        border: 1px solid #808080;
+        border-radius: 10px;
+    }
+
+    .table{
+        position: absolute;
+        width: 93vw;
+        height: 52vw;
+        left: -1px;
+        top: 2px;
+        color: #808080;
+        background: #808080;
+        font-family: 'Inter';
+        font-style: normal;
+        border-radius: 0.8rem;
+        overflow: hidden;
+        border: 1px solid #808080;
+        border-radius: 20px;
+        text-transform: uppercase;
     }
     
-    
-    
+
+
     /* Override any other styles as needed */
     /* ... */
-  }
-  
+}
